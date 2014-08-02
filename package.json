@@ -6,13 +6,20 @@
     "scripts": {
         "test": "mocha -R list"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nadav-dav/alfred2-workflow-feedback"
+    },
     "keywords": [
         "alfred",
         "alfred2",
         "feedback",
         "workflow"
     ],
-    "author": "Nadav Dav",
+    "author": {
+        "name": "Nadav Dav",
+        "email": "nadavik@gmail.com"
+    },
     "license": "ISC",
     "dependencies": {
         "lodash": "^2.4.1",
