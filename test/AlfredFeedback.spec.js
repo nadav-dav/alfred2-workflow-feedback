@@ -1,7 +1,6 @@
 var rek = require('rekuire');
 var alfred = require('../');
 var assert = require('assert');
-var fromXml = require('xml2js').parseString;
 
 describe('Alfred 2 Feedback', function() {
     it('should return a valid xml output', function() {
